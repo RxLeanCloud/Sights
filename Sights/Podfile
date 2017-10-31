@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Sights' do
+    pod 'RxLeanCloud','~> 0.1.0'
+end
+
+target 'SightsTests' do
+    pod 'RxLeanCloud','~> 0.1.0'
+    pod 'RxBlocking', '> 4.0'
+    pod 'RxTest', '> 4.0'
+end
